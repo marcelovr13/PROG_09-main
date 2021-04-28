@@ -35,7 +35,7 @@ public class Libre extends Alumno{
 
     @Override
     public String mostrarAsignaturas() {
-        return "El estudiante libre " + getNombre() + "cursa " + Arrays.toString(getListaAsignaturas());
+        return "El estudiante libre " + getNombre() + " cursa " + Arrays.toString(getListaAsignaturas());
     }
 
 

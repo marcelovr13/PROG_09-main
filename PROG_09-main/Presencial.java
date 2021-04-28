@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Presencial extends Alumno {
 
     private double matriculaCurso;
@@ -42,8 +44,15 @@ public class Presencial extends Alumno {
 
     @Override
     public String mostrarAsignaturas() {
-        return null;
+        return "El estudiante presencial " + super.getNombre() + " cursa " + Arrays.toString(getListaAsignaturas());
     }
 
-
+    @Override
+    public String toString() {
+        return "Presencial{" +
+                "matriculaCurso=" + matriculaCurso +
+                ", numeroConvocatoria=" + numeroConvocatoria +
+                ", plusPorConvocatoria=" + plusPorConvocatoria +
+                '}';
+    }
 }

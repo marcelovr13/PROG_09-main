@@ -37,7 +37,6 @@ public abstract class Alumno extends Persona{
                 "curso=" + curso + '\'' +
                 ", nivelAcademico='" + nivelAcademico + '\'' +
                 ", listaAsignaturas=" + Arrays.toString(listaAsignaturas) +
-                ", "
                 '}';
     }
 
